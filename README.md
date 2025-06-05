@@ -20,17 +20,29 @@ iptables / ufw : pour la configuration du pare-feu et du routage.
 Certificats SSL/TLS : pour l’authentification et la sécurité.
 
 📁 Structure du projet
+
 bash
+
 Copier
+
 Modifier
+
 openvpn-vm/
+
 ├── server.conf           # Configuration principale du serveur OpenVPN
+
 ├── easy-rsa/             # Outils pour générer les certificats
+
 ├── client-configs/       # Fichiers de configuration pour les clients
+
 │   └── base.conf
+
 ├── logs/                 # Fichiers journaux du serveur VPN
+
 └── README.md             # Documentation du projet
+
 👤 Utilisateurs cibles
+
 Administrateurs réseau
 
 Développeurs travaillant à distance
